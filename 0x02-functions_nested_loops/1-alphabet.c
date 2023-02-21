@@ -1,6 +1,7 @@
 #include"main.h"
 /**
  * main -  prints the alphabet, in lowercase, followed by a new line.
+ * description - You can only use _putchar twice in your code
  * Return: 0
  */
 void print_alphabet(void)
