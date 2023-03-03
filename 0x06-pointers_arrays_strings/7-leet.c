@@ -27,4 +27,7 @@ char *leet(char *s)
 
 	return (s);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 631d0e65cb2052c45bed09e1925f787ec915e410
