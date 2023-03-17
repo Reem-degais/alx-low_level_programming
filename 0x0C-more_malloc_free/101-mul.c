@@ -1,8 +1,7 @@
 #include "main.h"
-#include <ctype.h>
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <ctype.h>
 
 /**
  * _is_zero - determines if any number is zero
@@ -15,7 +14,6 @@ void _is_zero(char *argv[])
 	int i, isn1 = 1, isn2 = 1;
 
 	for (i = 0; argv[1][i]; i++)
-
 		if (argv[1][i] != '0')
 		{
 			isn1 = 0;
@@ -23,7 +21,6 @@ void _is_zero(char *argv[])
 		}
 
 	for (i = 0; argv[2][i]; i++)
-
 		if (argv[2][i] != '0')
 		{
 			isn2 = 0;
@@ -36,8 +33,6 @@ void _is_zero(char *argv[])
 		exit(0);
 	}
 }
-
-
 
 /**
  * _initialize_array - set memery to zero in a new array
@@ -77,9 +72,6 @@ int _checknum(char *argv[], int n)
 
 	return (ln);
 }
-
-
-
 
 /**
  * main - Entry point.
