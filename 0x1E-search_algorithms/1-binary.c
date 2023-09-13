@@ -17,10 +17,10 @@ int binary_search(int *array, size_t size, int value)
 		return (-1);
 	while (low <= high)
 	{
-		printf("Searching in array: ");
+		printf("Searching in array:");
 		for (i = low; i < high; i++)
-			printf("%d,", array[i]);
-		printf("%d\n", array[i]);
+			printf(" %d,", array[i]);
+		printf(" %d\n", array[i]);
 		mid_indx = low + (high - low) / 2;
 		if (array[mid_indx] == value)
 			return (mid_indx);
